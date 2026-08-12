@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - Football Fan Club</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">⚽ FOOTBALL FC</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="matches.html" class="active">Matches</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Join Us</a></li>
+        </ul>
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+
+<section class="page-banner">
+    <h1>MATCH CENTER</h1>
+    <p>Follow the latest football action.</p>
+</section>
+
+
+<section class="section">
+    <div class="section-title">
+        <p>LIVE & RESULTS</p>
+        <h2>Recent Matches</h2>
+    </div>
+    <div id="recent-matches-list" class="match-list">
+        <p style="text-align: center; color: var(--text-muted);">Loading live results...</p>
+    </div>
+</section>
+
+
+<section class="section dark-section">
+    <div class="section-title light">
+        <p>FIXTURES</p>
+        <h2>Upcoming Matches</h2>
+    </div>
+    <div id="upcoming-matches-grid" class="matches-grid">
+        <p style="text-align: center; color: var(--text-muted);">Loading upcoming fixtures...</p>
+    </div>
+</section>
+
+<footer>
+    <div class="copyright">
+        © 2026 Football Fan Club. All Rights Reserved.
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
